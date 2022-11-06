@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._03">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:text="Back"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/weserv"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WeServe"
+            android:textColor="#2CA7E0"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give us your email and create a strong password"
+            android:textColor="#2CA7E0"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/et-Email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="UserId"
+            android:textColorHint="#2CA7E0"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_baseline"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et-pass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="#2CA7E0"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_baseline"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit"
+            android:padding="10dp"
+            tools:ignore="DuplicateIds" />
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="NEXT"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            />
+    </LinearLayout>
+</LinearLayout>
